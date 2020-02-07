@@ -1,6 +1,7 @@
-import React from 'react';
+import React from 'react'
 import './App.css';
 import Alt from './Components/ComOne'
+import Main from './Components/ComTwo'
 
 class App extends React.Component{
 
