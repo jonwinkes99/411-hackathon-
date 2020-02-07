@@ -28,8 +28,8 @@ class Alt extends Component {
             <input onChange={this.onChange}></input>
             <button type="submit">Submit</button>
             {
-              this.state.alts.map(Alt => {
-                return <p> <a href={arc.url}>{arc.title}</a></p>
+              this.state.alts.map(alts => {
+                return <p> <a href={alts.url}>{alts.title}</a></p>
               })
             }
           </form>
